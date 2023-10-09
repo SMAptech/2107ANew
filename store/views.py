@@ -16,3 +16,6 @@ def collectionsview(request, slug):
         context = {'products':products}
         return render(request,"store/product/index.html",context)
 
+def abc():
+    pass
+    
