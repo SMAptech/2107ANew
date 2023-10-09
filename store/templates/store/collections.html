@@ -1,0 +1,21 @@
+
+
+
+{% for item in category %}
+
+
+<div>
+    <a href = "{% url 'collectionsview' item.slug %}">{{ item.name }}</a>
+    <img scr= "{{ item.image.url }}" width = "100px" height = "100px"> 
+    
+   
+    
+</div>
+
+
+{% endfor %}
+
+
+
+
+
